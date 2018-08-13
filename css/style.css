@@ -1,6 +1,8 @@
 body {
   background-color: #ff0000;
-  color: #0000FF;
+  text-decoration-color: #514F59;
+  font-size: 16px;
+  line-height: 1.5em
 }
 
 nav {
@@ -10,7 +12,31 @@ nav {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color : #000000;
+}
+
+h1 {
+  font-size: 3em; /*48/16*/
+  line-height: 100%;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.75em; /*28/16*/
+  line-height: 100%;
+}
+
+.author {
+  padding-bottom: 10px; /*space below byline*/
+}
+
 .logo {
+  background: url(images/bloc logo.png);
   margin: 20px;
   width: 100px;
 }
@@ -20,6 +46,7 @@ nav {
 }
 
 .medium-pic {
+  background: url(instagram-pic.jpg);
   width: 70%;
 }
 
